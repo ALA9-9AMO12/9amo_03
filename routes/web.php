@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'WelcomeController@index');
 Route::get('/contact', 'WelcomeController@contact');
 Route::get('/berichten', 'WelcomeController@bericht');
-Route::get('/cursus', 'WelcomeController@cusrus');
+Route::get('/cursus', 'WelcomeController@cursus');
 Route::get('/info', 'WelcomeController@info');
