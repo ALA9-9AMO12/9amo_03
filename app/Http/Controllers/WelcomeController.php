@@ -18,21 +18,21 @@ class WelcomeController extends Controller
 
     }
 
-    public function berichten() {
+    public function bericht() {
 
-        return view('bericht');
-
-    }
-
-    public function cursus() {
-
-        return view('cursus');
+        return view('berichten');
 
     }
 
     public function cursus() {
 
         return view('cursus');
+
+    }
+
+    public function info() {
+
+        return view('informatie');
 
     }
 }
