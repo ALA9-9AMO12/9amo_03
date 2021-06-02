@@ -17,4 +17,22 @@ class WelcomeController extends Controller
         return view('contact');
 
     }
+
+    public function berichten() {
+
+        return view('bericht');
+
+    }
+
+    public function cursus() {
+
+        return view('cursus');
+
+    }
+
+    public function cursus() {
+
+        return view('cursus');
+
+    }
 }
