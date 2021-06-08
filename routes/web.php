@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 Route::resource('contacts', 'ContactController');
-Route::resource( 'about', 'AboutController')
+Route::resource( 'abouts', 'AboutController');
