@@ -17,7 +17,7 @@
         crossorigin="anonymous"></script>
 @yield('main')
 <section class="navigation">
-    <div class="container">
+
 
         <nav class=" navbar navbar-expand-lg bg-warning">
             <div class="container-fluid position-relative">
@@ -47,16 +47,53 @@
                 </div>
             </div>
         </nav>
-    </div>
+
 </section>
 
 <section class="breaking">
-    <div class="container">
-        <div class="col-9">
+    <div class="container-fluid row">
+        <div class="col-9 py-5 my-5 px-5">
+            <p class="fs-3 fw-bold text-black">Over de Imkervereniging</p>
+            <p class="text-black fs-5 col-11 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+            </p>
+
+            <div class="row py-5">
+                <div class="col">
+                    <p class="fs-5 fw-bold text-black">Over de Imkervereniging</p>
+                    <p class="text-black fs-6 col-10 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+
+                    </p>
+                </div>
+                <div class="col">
+                    <p class="fs-5 fw-bold text-black">Over de Imkervereniging</p>
+                    <p class="text-black fs-6 col-10 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+
+                    </p>
+                </div>
+            </div>
+
 
         </div>
-        <div class="col-3">
 
+        <div class="col-3 py-5 my-5">
+            <p class="fs-4 fw-bold text-black">Bijenzwerm ?</p>
+            <p class="text-black fs-6 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            </p>
+
+            <p class="fs-4 fw-bold text-black mt-4">Onze imker helpt U!</p>
+            <p class="text-black fs-6 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
+
+            <p class="fs-4 fw-bold text-black mt-4">Berichten</p>
+            <p class="text-black fs-6 lh-base">Hier komen de nieuwste berichten</p>
         </div>
     </div>
 </section>
