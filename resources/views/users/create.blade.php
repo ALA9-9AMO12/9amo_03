@@ -22,12 +22,12 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="last_name">Password:</label>
+                        <label for="password">Password:</label>
                         <input type="password" class="form-control" name="password"/>
                     </div>
 
                     <div class="form-group">
-                        <label for="last_name">Admin:</label>
+                        <label for="admin">Admin:</label>
                         <!--<input type="checkbox" class="form-control" name="admin"/>-->
                         <input name="admin" type="hidden" value="0">
                         <input name="admin" type="checkbox" value="1">
