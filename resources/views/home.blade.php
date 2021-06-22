@@ -63,7 +63,7 @@
 
             <div class="row py-5">
                 <div class="col">
-                    <p class="fs-5 fw-bold text-black">Over de Imkervereniging</p>
+                    <p class="fs-5 fw-bold text-black">Onze Activiteiten</p>
                     <p class="text-black fs-6 col-10 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
@@ -71,7 +71,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <p class="fs-5 fw-bold text-black">Over de Imkervereniging</p>
+                    <p class="fs-5 fw-bold text-black">Wat te doen bij een bijenzwerm of hommelnest?</p>
                     <p class="text-black fs-6 col-10 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
