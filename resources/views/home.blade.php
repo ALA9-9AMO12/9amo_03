@@ -16,13 +16,14 @@
 
         crossorigin="anonymous"></script>
 @yield('main')
+<img src="img/bee.jpg" alt="bee">
 <section class="navigation">
 
 
         <nav class=" navbar navbar-expand-lg bg-warning">
             <div class="container-fluid position-relative">
 
-<img src="/img/bee.jpg" alt="bee">
+
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item text-dark">
