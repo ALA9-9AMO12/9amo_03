@@ -53,7 +53,7 @@
 <section class="breaking">
     <div class="container-fluid row">
         <div class="col-9 py-5 my-5 px-5">
-            <p class="fs-3 fw-bold text-black">Over de Imkervereniging</p>
+            <p class="fs-3 fw-bold text-black">HET HOUDEN VAN BIJEN !</p>
             <p class="text-black fs-5 col-11 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
