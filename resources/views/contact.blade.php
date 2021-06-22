@@ -16,6 +16,11 @@
 
         crossorigin="anonymous"></script>
 @yield('main')
+<div class="header">
+<img src="img/bee.jpg" alt="bee" style="margin-left:360px;height:300px;width:800px;">
+<h1 class="title" style="font-family:arizona;font-size:5rem;position:absolute;top:10vh;left:32vw;text-align:center;color:white;">Imkervereniging <br>Oegstgeest</h1>
+</div>
+
 <section class="navigation">
 
 
