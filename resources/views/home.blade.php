@@ -16,7 +16,7 @@
 
         crossorigin="anonymous"></script>
 @yield('main')
-<img src="img/bee.jpg" alt="bee">
+<img src="img/bee.jpg" alt="bee" style="align:center;height:500pc;width:400px;">
 <section class="navigation">
 
 
