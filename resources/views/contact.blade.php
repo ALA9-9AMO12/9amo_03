@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item text-dark">
-                        <a class="nav-link text-dark active" aria-current="page" href="http://localhost/imker/public/">HOME</a>
+                        <a class="nav-link text-dark active" aria-current="page" href="http://localhost/imker-2/public/">HOME</a>
                     </li>
                     <li class="nav-item text-dark">
                         <a class="nav-link text-dark" href="#">BASISCURSUS</a>
@@ -38,7 +38,7 @@
                         <a class="nav-link text-dark" href="#">LINKS</a>
                     </li>
                     <li class="nav-item text-dark">
-                        <a class="nav-link text-dark" href="#">CONTACT</a>
+                        <a class="nav-link text-dark" href="http://localhost/imker-2/public/contact">CONTACT</a>
                     </li>
                     <li class="nav-item text-dark">
                         <a class="nav-link text-dark" href="#">BERICHTEN</a>
