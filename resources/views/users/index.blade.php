@@ -3,7 +3,7 @@
 @section('main')
     <div class="row">
         <div class="col-sm-12">
-            <h1 class="display-3">Contacts</h1>
+            <h1 class="display-3">Users</h1>
 
                 <div class="col-sm-12">
 
@@ -15,35 +15,30 @@
                 </div>
 
             <div>
-                <a style="margin: 19px;" href="{{ route('contacts.create')}}" class="btn btn-primary">New contact</a>
+                <a style="margin: 19px;" href="{{ route('users.create')}}" class="btn btn-primary">New user</a>
             </div>
 
             <table class="table table-striped">
                 <thead>
                 <tr>
                     <td>ID</td>
-                    <td>Name</td>
-                    <td>Email</td>
-                    <td>Job Title</td>
-                    <td>City</td>
-                    <td>Country</td>
-                    <td colspan = 2>Actions</td>
+                    <td>Username</td>
+                    <td>Password</td>
+                    <td>Admin</td>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($contacts as $contact)
+                @foreach($users as $user)
                     <tr>
-                        <td>{{$contact->id}}</td>
-                        <td>{{$contact->first_name}} {{$contact->last_name}}</td>
-                        <td>{{$contact->email}}</td>
-                        <td>{{$contact->job_title}}</td>
-                        <td>{{$contact->city}}</td>
-                        <td>{{$contact->country}}</td>
+                        <td>{{$user->id}}</td>
+                        <td>{{$user->username}}</td>
+                        <td>{{$user->password}}</td>
+                        <td>{{$user->admin}}</td>
                         <td>
-                            <a href="{{ route('contacts.edit',$contact->id)}}" class="btn btn-primary">Edit</a>
+                            <a href="{{ route('users.edit', $user->id)}}" class="btn btn-primary">Edit</a>
                         </td>
                         <td>
-                            <form action="{{ route('contacts.destroy', $contact->id)}}" method="post">
+                            <form action="{{ route('users.destroy', $user->id)}}" method="post">
                                 @csrf
                                 @method('DELETE')
                                 <button class="btn btn-danger" type="submit">Delete</button>

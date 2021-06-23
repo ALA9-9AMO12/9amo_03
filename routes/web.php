@@ -17,5 +17,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::resource('contacts', 'ContactController');
-Route::resource( 'abouts', 'AboutController');
+Route::resource('users', 'UserController');
