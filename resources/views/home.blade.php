@@ -16,6 +16,11 @@
 
         crossorigin="anonymous"></script>
 @yield('main')
+<div class="header">
+<img src="img/bee.jpg" alt="bee" style="margin-left:360px;height:300px;width:800px;">
+<h1 class="title" style="font-family:arizona;font-size:5rem;position:absolute;top:10vh;left:32vw;text-align:center;color:white;">Imkervereniging <br>Oegstgeest</h1>
+</div>
+
 <section class="navigation">
 
 
@@ -26,7 +31,7 @@
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item text-dark">
-                            <a class="nav-link text-dark active" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link text-dark active" aria-current="page" href="http://localhost/imker-2/public/">HOME</a>
                         </li>
                         <li class="nav-item text-dark">
                             <a class="nav-link text-dark" href="#">BASISCURSUS</a>
@@ -38,7 +43,7 @@
                             <a class="nav-link text-dark" href="#">LINKS</a>
                         </li>
                         <li class="nav-item text-dark">
-                            <a class="nav-link text-dark" href="#">CONTACT</a>
+                            <a class="nav-link text-dark" href="http://localhost/imker-2/public/contact">CONTACT</a>
                         </li>
                         <li class="nav-item text-dark">
                             <a class="nav-link text-dark" href="#">BERICHTEN</a>
@@ -53,7 +58,7 @@
 <section class="breaking">
     <div class="container-fluid row">
         <div class="col-9 py-5 my-5 px-5">
-            <p class="fs-3 fw-bold text-black">Over de Imkervereniging</p>
+            <p class="fs-3 fw-bold text-black">HET HOUDEN VAN BIJEN !</p>
             <p class="text-black fs-5 col-11 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
@@ -63,7 +68,7 @@
 
             <div class="row py-5">
                 <div class="col">
-                    <p class="fs-5 fw-bold text-black">Over de Imkervereniging</p>
+                    <p class="fs-5 fw-bold text-black">Onze Activiteiten</p>
                     <p class="text-black fs-6 col-10 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
@@ -71,7 +76,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <p class="fs-5 fw-bold text-black">Over de Imkervereniging</p>
+                    <p class="fs-5 fw-bold text-black">Wat te doen bij een bijenzwerm of hommelnest?</p>
                     <p class="text-black fs-6 col-10 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium

@@ -16,5 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/contact', 'WelcomeController@contact');
+
 
 Route::resource('users', 'UserController');
