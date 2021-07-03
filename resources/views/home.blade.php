@@ -43,7 +43,7 @@
                             <a class="nav-link text-dark" href="#">LINKS</a>
                         </li>
                         <li class="nav-item text-dark">
-                            <a class="nav-link text-dark" href="http://localhost/imker-2/public/contact">CONTACT</a>
+                            <a class="nav-link text-dark" href="{{ route('contacts.create')}}">CONTACT</a>
                         </li>
                         <li class="nav-item text-dark">
                             <a class="nav-link text-dark" href="#">BERICHTEN</a>
