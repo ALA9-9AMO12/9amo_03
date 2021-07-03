@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 Route::get('/contact', 'WelcomeController@contact');
 
-
+Route::resource('contacts', 'ContactController');
 Route::resource('users', 'UserController');
