@@ -31,7 +31,7 @@
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item text-dark">
-                            <a class="nav-link text-dark active" aria-current="page" href="http://localhost/imker-2/public/">HOME</a>
+                            <a class="nav-link text-dark active" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item text-dark">
                             <a class="nav-link text-dark" href="#">BASISCURSUS</a>
